@@ -12,17 +12,28 @@ A list of packages is maintained in `winget-packages.list` file.
 
 Currently, the following applications are installed via `winget`:
 
+Obsidian.Obsidian
+ShareX.ShareX
+voidtools.Everything
+
+- `7zip.7zip` - Archive manager,
+- `AgileBits.1Password` - 1Password Password Manager,
 - `dbeaver.dbeaver` - Open-source database management UI,
-- `Ditto.Ditto` - clipboard manager,
+- `dandavison.delta` - Better `diff`s in terminal,
+- `Ditto.Ditto` - Clipboard manager,
+- `Docker.DockerDesktop` - Docker Desktop for Windows,
 - `Git.Git` - Git for Windows,
 - `Google.Chrome`,
-- `Jetbrains.Toolbox` - utility to install JetBrains products,
+- `Jetbrains.Toolbox` - Utility to install JetBrains products,
 - `Kubernetes.kubectl` - `kubectl` utility,
-- `Microsoft.PowerToys` - goodies from Microsoft (https://learn.microsoft.com/en-us/windows/powertoys/),
+- `Microsoft.PowerToys` - Goodies from Microsoft (https://learn.microsoft.com/en-us/windows/powertoys/),
+- `Microsoft.VisualStudioCode`,
 - `Microsoft.WindowsTerminal`,
 - `MuhammedKalkan.OpenLens` - Kubernetes UI,
 - `Notepad++.Notepad++`
-- `Obsidian.Obsidian` - local-first note taking tool.
+- `Obsidian.Obsidian` - Local-first note taking tool,
+- `ShareX.ShareX` - Screenshots utility,
+- `voidtools.Everything` - Fast file searcher 
 
 ## How to install
 
