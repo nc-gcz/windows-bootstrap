@@ -6,15 +6,11 @@
 winget install -e --id Git.Git --source winget --accept-source-agreements --accept-package-agreements
 ```
 
-## Install other Winget packages
+## Install Winget packages
 
 A list of packages is maintained in `winget-packages.list` file.
 
 Currently, the following applications are installed via `winget`:
-
-Obsidian.Obsidian
-ShareX.ShareX
-voidtools.Everything
 
 - `7zip.7zip` - Archive manager,
 - `AgileBits.1Password` - 1Password Password Manager,
@@ -35,11 +31,19 @@ voidtools.Everything
 - `ShareX.ShareX` - Screenshots utility,
 - `voidtools.Everything` - Fast file searcher 
 
+## Install other tools
+
+- `fzf` - Fuzzy finder in terminal,
+- `T-Clock` - Better clock for Windows 10.
+
 ## How to install
 
 - Elevate your privileges via `Heimdall Thor Agent`,
 - Run `Git Bash` as administrator,
-- Execute the script: 
+- Execute the script: `./install.sh`.
+ 
+It will install all the tools w/o prompting, so comment out parts that are not relevant for you.
+
 ## Install Citrix Workspace
 
 From here: https://www.citrix.com/downloads/workspace-app/windows/workspace-app-for-windows-latest.html
