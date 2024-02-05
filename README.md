@@ -1,6 +1,12 @@
 # Things to do after fresh installation
 
-## Install Winget packages
+## Install Git first
+
+```shell
+winget install -e --id Git.Git --source winget --accept-source-agreements --accept-package-agreements
+```
+
+## Install other Winget packages
 
 A list of packages is maintained in `winget-packages.list` file.
 
@@ -18,6 +24,11 @@ Currently, the following applications are installed via `winget`:
 - `Notepad++.Notepad++`
 - `Obsidian.Obsidian` - local-first note taking tool.
 
+## How to install
+
+- Elevate your privileges via `Heimdall Thor Agent`,
+- Run `Git Bash` as administrator,
+- Execute the script: 
 ## Install Citrix Workspace
 
 From here: https://www.citrix.com/downloads/workspace-app/windows/workspace-app-for-windows-latest.html

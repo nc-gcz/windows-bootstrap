@@ -3,6 +3,8 @@
 NO_FORMAT="\033[0m"
 C_DEEPSKYBLUE1="\033[38;5;39m"
 C_GREEN3="\033[38;5;40m"
+C_DARKORANGE="\033[38;5;208m"
+C_RED3="\033[38;5;160m"
 
 function info() {
     echo -e "[INFO] ${C_DEEPSKYBLUE1}$@${NO_FORMAT}"
@@ -13,9 +15,9 @@ function success() {
 }
 
 function warn() {
-    echo -e "[WARN] ${C_GREEN3}$@${NO_FORMAT}"
+    echo -e "[WARN] ${C_DARKORANGE}$@${NO_FORMAT}"
 }
 
-function success() {
-    echo -e "[ERR ] ${C_GREEN3}$@${NO_FORMAT}"
+function error() {
+    echo -e "[ERR ] ${C_RED3}$@${NO_FORMAT}"
 }
