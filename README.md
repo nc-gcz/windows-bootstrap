@@ -26,10 +26,11 @@ Currently, the following applications are installed via `winget`:
 - `Microsoft.VisualStudioCode`,
 - `Microsoft.WindowsTerminal`,
 - `MuhammedKalkan.OpenLens` - Kubernetes UI,
-- `Notepad++.Notepad++`
+- `Notepad++.Notepad++`,
 - `Obsidian.Obsidian` - Local-first note taking tool,
 - `ShareX.ShareX` - Screenshots utility,
-- `voidtools.Everything` - Fast file searcher 
+- `TomHudson.gron` - `grep`pable JSON!,
+- `voidtools.Everything` - Fast file searcher.
 
 ## Install other tools
 
